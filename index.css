@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
@@ -39,9 +46,11 @@ img {
 .qr-container .title {
   font-weight: 700;
   font-size: 22px;
+  color: hsl(218, 44%, 22%);
 }
 
 .qr-container .subtitle {
   font-weight: 400;
   font-size: 15px;
+  color: hsl(220, 15%, 55%);
 }
