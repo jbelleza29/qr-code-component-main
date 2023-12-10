@@ -10,7 +10,7 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
-img {
+img, p {
   margin: 0;
 	padding: 0;
 	border: 0;
@@ -35,7 +35,7 @@ img {
 }
 
 .qr-container .info {
-  padding: 0 16px;
+  padding: 0 16px 24px;
 }
 
 .qr-container img {
@@ -47,6 +47,7 @@ img {
   font-weight: 700;
   font-size: 22px;
   color: hsl(218, 44%, 22%);
+  margin: 24px 0 16px;
 }
 
 .qr-container .subtitle {
